@@ -12,8 +12,11 @@ public class Cartas {
      */
 
     public int getValorCarta() {
-        Random aleatorio = new Random();
-        valorCarta = aleatorio.nextInt(12) + 1;
+        valorCarta = 8;
+        while (valorCarta==8 || valorCarta== 9){
+            Random aleatorio = new Random();
+            valorCarta = aleatorio.nextInt(12) + 1;
+        }
         return valorCarta;
     }
     public int getPalo() {
