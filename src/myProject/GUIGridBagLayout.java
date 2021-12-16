@@ -112,7 +112,7 @@ public class GUIGridBagLayout extends JFrame {
         lanzar = new JButton("Sacar");
         lanzar.addActionListener(escucha);
         constraints.gridx=0;
-        constraints.gridy=3;
+        constraints.gridy=4;
         constraints.gridwidth=2;
         constraints.fill=GridBagConstraints.NONE;
         constraints.anchor=GridBagConstraints.CENTER;
@@ -122,7 +122,7 @@ public class GUIGridBagLayout extends JFrame {
         mensajeSalida.setText("Usa el botón (?) para ver las reglas del juego");
         mensajeSalida.setBorder(BorderFactory.createTitledBorder("Mensajes"));
         mensajeSalida.setEditable(false);
-        constraints.gridx=0;
+        constraints.gridx=2;
         constraints.gridy=4;
         constraints.gridwidth=2;
         constraints.fill=GridBagConstraints.NONE;
